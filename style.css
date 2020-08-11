@@ -62,11 +62,92 @@ header .contactButtons button{
 nav .container-fluid{
     clear: both;
     background-color: #f7f8fa !important;
+    height: 70px;
+}
+nav .container{
+    margin: auto auto;
+    width: 1170px;
+}
+nav .container .navbar-nav{
+    float: left;
+    margin: 12px 0px 10px 10px;
+}
+
+nav .container .ourSymbol{
+    
+    float: left;
+    margin: 4px 180px 10px 10px;
+}
+
+
+
+nav .navbar-nav ul{
+    float: left;
+    list-style: none;
+    width: auto;
+    margin: auto 0px;
+    
+}
+
+nav .navbar-nav ul li:nth-of-type(1){
+    float: left;
+    text-decoration: none;
+    margin: 2px 6px;
+    padding: 7px 12px;
+    border: 1px #316DC3 solid;
+    background-color: #316DC3;
+    border-radius: 16px; 
+    
+}
+nav .navbar-nav ul li{
+    float: left;
+    text-decoration: none;
+    margin: 2px 6px;
+    padding: 7px 12px;
+    border-radius: 16px; 
+    
+}
+
+nav .navbar-nav ul li:hover{
+    float: left;
+    text-decoration: none;
+    margin: 2px 6px;
+    padding: 7px 12px;
+    border: 1px #316DC3 solid;
+    background-color: #316DC3;
+    border-radius: 16px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+nav .navbar-nav ul li:nth-of-type(1) a{
+    text-decoration: none;
+    color: #fff!important;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+nav .navbar-nav ul li a{
+    
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+nav .navbar-nav ul li:hover a{
+    
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 nav .ourSymbol img{
-
     width: 191px;
     height: 51px;
-
 }
+
+
+/* ============ ==============nav completed ============= ==================*/
