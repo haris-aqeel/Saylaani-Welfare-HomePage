@@ -11,9 +11,62 @@ body{
 
 }
 
-header .container-fluid{
+header{
     background-color: #316DC3 !important;
+}
+
+.container{
+    width: 1170px;
+    margin: 0px auto;
+}
+
+header .container-fluid{
+    width: 100%;
+    height: 55px;
+    
+}
+
+header .container{
+    margin: 0px auto;
+    height: inherit;
+}
+
+header .container div{
+    height: 40px;
+    margin: 7px 36px;
+    padding: 9px;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+       
+}
+header .socialMediaIcons ul li, .socialMediaIcons ul li i {
+    list-style: none;
+    margin: auto 5px!important;
+    padding: auto 5px!important;
+    display: inline-block;
+    color: #fff;
+}
+
+header .contactButtons button{
+    margin: auto 0px;
+    padding: 4px 5px;
+    color: #316DC3 !important;
+    cursor: pointer;
 
 }
 
 
+/* ===========  ============= NAVBAR SECTION =============== ================*/
+nav .container-fluid{
+    clear: both;
+    background-color: #f7f8fa !important;
+}
+
+nav .ourSymbol img{
+
+    width: 191px;
+    height: 51px;
+
+}
