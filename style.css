@@ -452,5 +452,67 @@ footer{
     padding-bottom: 40px;
     line-height: 1.7;
     font-size: 16px;
+    height: 360px;
     font-family: 'Open Sans', sans-serif;
 }
+
+footer .contactLocation{
+    float: left;
+    margin: 5px 10px 5px 10px;
+}
+
+footer .links{
+    float: left;
+    margin: 5px 100px 5px 100px;
+}
+
+footer .connect{
+    float: left;
+    margin: 5px 70px 5px 70px;
+}
+
+.numbers i{
+    color: #427900 !important;
+    margin-right: 5px;
+}
+
+ul h3{
+    color: #fff;
+}
+
+footer div{
+    clear: both;
+}
+
+footer .contactLocation ul li{
+    list-style: none;
+    line-height: 2;
+}
+
+footer .connect li{
+    float: left;
+    list-style: none;
+    border-radius: 100%;
+    background-color: #316DC3;
+    
+    width: 30px;
+    height: 30px;
+    margin: 10px 4px;
+
+}
+
+footer .connect li a i {
+    color: #fff;
+    padding: 7px;
+}
+
+.last{
+    background-color: #316DC3;
+    height: 30px;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 7px;
+}
+
+
+/*===========initial development completed ==========*/
