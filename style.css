@@ -265,3 +265,34 @@ article .bands{
 
 
 }
+
+
+/* ============================ what are we going to do ==============*/
+.myPlans{
+    text-align: center;
+    background-color:#f7f8fa !important;
+    padding: 60px 0px 80px 0px;
+}
+
+.futurePlans h2{
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-family: serif;
+    padding: 5px 5px 10px 5px;
+    font-weight: 550;
+}
+
+.futurePlans h2 span:nth-of-type(1){
+    color: #316DC3;
+}
+
+
+.futurePlans h2 span:nth-of-type(2){
+    color: #427900 !important;
+}
+
+.futurePlans img{
+    width: 40px;
+    margin: 0px 5px 15px 5px;
+}
