@@ -223,3 +223,45 @@ article .Sentence{
 
 
 /* ====================== ====== second article ===============*/
+
+
+article .bands{
+    background-color:#316DC3!important;
+    height: 350px;
+    color: #fff;
+    padding: 40px 0px;    
+}
+
+.allBands img{
+    height: 40px;}
+
+.band{
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 30px 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.bandIcon{
+
+    margin: 10px 10px;
+}
+
+.bandCount h1{
+    font-weight: 500;
+    color: #fff;
+    font-size: 42px;
+    margin: 5px auto 12px auto;
+}
+
+.bandDetails{
+    font-weight: bold;
+}
+
+.bandDetails span{
+    color: rgb(0, 255, 0);
+
+
+}
