@@ -60,8 +60,8 @@ header .contactButtons button{
 
 /* ===========  ============= NAVBAR SECTION =============== ================*/
 nav .container-fluid{
-    clear: both;
-    background-color: #f7f8fa !important;
+    clear: both; 
+    background-color:#f7f8fa !important;
     height: 70px;
 }
 nav .container{
@@ -150,4 +150,76 @@ nav .ourSymbol img{
 }
 
 
-/* ============ ==============nav completed ============= ==================*/
+/* ============ ============== CAROUSEL ============= ==================*/
+
+article{
+    margin: 0px 0px 10px 0px;
+    
+}
+
+
+
+article .carousel-image img{
+    width: 100%;
+    height: 500px;
+    margin: 0px 0px 12px 0px;
+}
+
+article .Sentence{
+    background-color: #316DC3;
+    color: #fff;
+    height: 25px;
+    overflow: hidden;
+    padding: 5px 2px 2px 2px;
+
+    text-align: center;
+    
+}
+
+
+/* ==============first article finished ===================*/
+.details{
+    text-align: center;
+    background-color:#f7f8fa !important;
+    padding: 60px 0px 80px 0px;
+}
+
+.details .Introduction h2{
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-family: serif;
+    padding: 5px 5px 10px 5px;
+    font-weight: 550;
+}
+
+.details .Introduction h2 span:nth-of-type(1){
+    color: #316DC3;
+}
+
+
+.details .Introduction h2 span:nth-of-type(2){
+    color: #427900 !important;
+}
+
+.details .Introduction img{
+    width: 40px;
+    margin: 0px 5px 15px 5px;
+}
+
+.details .text{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    line-height: 1.9;
+    margin: 0px 100px;
+    font-size:15px;
+    
+}
+
+.text p{
+    margin: 12px 0px;
+}
+
+
+/* ====================== ====== second article ===============*/
