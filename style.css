@@ -331,3 +331,27 @@ article .bands{
 
 /* ================== mission and upcoming projects ==================*/
 
+.OurMissions{
+    width: 100%;
+    height: auto;
+    clear: both;
+    margin-top: 70px;
+    
+}
+
+.missions{
+    float: left;
+    width: 60%;
+    color: #316DC3;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.missions-heading h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #316DC3;
+    font-size: 24px;
+}
